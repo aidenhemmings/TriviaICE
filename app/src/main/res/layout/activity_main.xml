@@ -5,5 +5,69 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#9ecdda"/>
+    android:background="#9ecdda"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblQuizicality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="663dp"
+        android:text="Quizicality"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/GenKnowledge"
+        android:layout_width="329dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginBottom="558dp"
+        android:text="General Knowledge"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="41dp" />
+
+    <Button
+        android:id="@+id/btnFilms"
+        android:layout_width="312dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="50dp"
+        android:text="Films"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/btnGames"
+        android:layout_width="303dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="364dp"
+
+        android:text="Video Games"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
