@@ -18,6 +18,11 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        //Gen Knowledge - https://opentdb.com/api.php?amount=5&category=9&difficulty=easy&type=multiple
+        //Movies - https://opentdb.com/api.php?amount=5&category=11&difficulty=easy&type=multiple
+        //Games - https://opentdb.com/api.php?amount=5&category=15&difficulty=easy&type=multiple
+
         var btnGenKnowledge = findViewById<Button>(R.id.btnGenKnowledge)
         var btnFilms = findViewById<Button>(R.id.btnFilms)
         var btnGames = findViewById<Button>(R.id.btnGames)

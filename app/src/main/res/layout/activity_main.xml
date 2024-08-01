@@ -44,14 +44,18 @@
         android:layout_width="329dp"
         android:layout_height="55dp"
         android:layout_marginStart="49dp"
+        android:layout_marginTop="204dp"
         android:layout_marginEnd="50dp"
+        android:layout_marginBottom="472dp"
         android:text="Films"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="225dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnGames"
@@ -69,5 +73,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
