@@ -15,6 +15,9 @@
         android:theme="@style/Theme.TriviaICE"
         tools:targetApi="31">
         <activity
+            android:name=".Films2"
+            android:exported="false" />
+        <activity
             android:name=".Games"
             android:exported="false" />
         <activity
